@@ -12,6 +12,10 @@ body {
   font-family: brandon-grotesque, sans-serif;
 }
 
+header h1 {
+  width: 180px;
+}
+
 header .sommary {
   background-color: #F2E0D2;
   width: 375px;
