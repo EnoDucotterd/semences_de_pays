@@ -32,3 +32,7 @@ header .sommary a {
   color: black;
   margin: 0 16px;
 }
+
+main .context img {
+  width: 210px;
+}
