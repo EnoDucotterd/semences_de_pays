@@ -22,3 +22,9 @@ header .sommary {
   align-items: center;
   font-family: eb-garamond, serif;
 }
+
+header .sommary a {
+  text-decoration: none;
+  color: black;
+  margin: 0 16px;
+}
