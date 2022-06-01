@@ -33,6 +33,19 @@ header .sommary a {
   margin: 0 16px;
 }
 
+main .context div {
+  background-color: #f5f0eab1;
+  font-weight: 300;
+}
+
+main .context {
+  position: relative;
+}
+
 main .context img {
-  width: 210px;
+  width: 250px;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  z-index: -1;
 }
