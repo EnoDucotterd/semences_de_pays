@@ -16,6 +16,11 @@ header h1 {
   width: 180px;
 }
 
+h1,
+h2 {
+  font-family: eb-garamond, serif
+}
+
 header .sommary {
   background-color: #F2E0D2;
   width: 375px;
