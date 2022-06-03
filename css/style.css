@@ -53,9 +53,10 @@ h2 {
   font-weight: 300;
 }
 
-main .context {
+.context {
   position: relative;
 }
+
 .context img {
   width: 250px;
   position: absolute;
@@ -82,4 +83,12 @@ main .context {
 
 .button-flower {
   background-color: #A9A3CD;  
+}
+
+
+.pumpkin img,
+.borlotto img,
+.flower img {
+  width: 280px;
+
 }
