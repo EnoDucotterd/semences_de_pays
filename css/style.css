@@ -23,6 +23,8 @@ h2 {
 
 h2 {
   font-size: medium;
+  border-bottom: solid 1px black;
+  width: 100px;
 }
 
 .sommary {
