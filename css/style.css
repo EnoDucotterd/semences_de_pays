@@ -73,16 +73,26 @@ h2 {
   justify-content: center;
 }
 
-.button-pumpkin {
+.button-pumpkin,
+.pumpkin figure {
   background-color: #DB967C;
 }
 
-.button-borlotto {
+.button-borlotto,
+.borlotto figure {
   background-color: #CF7F96;
 }
 
-.button-flower {
+.button-flower,
+.flower figure {
   background-color: #A9A3CD;  
+}
+
+.button-pumpkin figure,
+.button-borlotto figure,
+.button-flower figure {
+  width: 220px;
+  padding: auto;
 }
 
 
@@ -90,5 +100,4 @@ h2 {
 .borlotto img,
 .flower img {
   width: 280px;
-
 }
