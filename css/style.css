@@ -141,6 +141,10 @@ main article {
   overflow: hidden;
 }
 
+.more-contact {
+  background-color: black;
+}
+
 .retails {
   width: 80px;
   margin-left: 10px;
