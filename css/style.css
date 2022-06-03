@@ -25,7 +25,7 @@ h2 {
   font-size: medium;
 }
 
-header .sommary {
+.sommary {
   background-color: #F2E0D2;
   width: 375px;
   height: 37px;
@@ -36,17 +36,17 @@ header .sommary {
   font-family: eb-garamond, serif;
 }
 
-header .sommary a {
+.sommary a {
   text-decoration: none;
   color: black;
   margin: 0 16px;
 }
 
-main .context {
+.context {
   margin: 20px 0 160px;
 }
 
-main .context div {
+.context div {
   background-color: #f5f0eab1;
   font-weight: 300;
 }
@@ -54,11 +54,30 @@ main .context div {
 main .context {
   position: relative;
 }
-
-main .context img {
+.context img {
   width: 250px;
   position: absolute;
   top: 70px;
   right: 0px;
   z-index: -1;
+}
+
+.button {
+  width: 90px;
+  color: #F5F0EA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-pumpkin {
+  background-color: #DB967C;
+}
+
+.button-borlotto {
+  background-color: #CF7F96;
+}
+
+.button-flower {
+  background-color: #A9A3CD;  
 }
