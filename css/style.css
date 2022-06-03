@@ -38,6 +38,10 @@ header .sommary a {
   margin: 0 16px;
 }
 
+main .context {
+  margin: 20px 0 160px;
+}
+
 main .context div {
   background-color: #f5f0eab1;
   font-weight: 300;
