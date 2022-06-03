@@ -133,21 +133,31 @@ main article {
   width: 280px;
 }
 
+
 .location {
   background-color: #ADD490;
   display: flex;
   flex-direction: column;
   height: 170px;
   overflow: hidden;
+  transition: height 0.3s;
+  position: relative;
 }
 
 .more-contact {
   background-color: black;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
 }
 
 .retails {
   width: 80px;
   margin-left: 10px;
+ }
+
+.location.is-open {
+  height: 784px;
 }
 
 footer {
