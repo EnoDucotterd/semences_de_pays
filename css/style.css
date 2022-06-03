@@ -140,3 +140,12 @@ main article {
   height: 170px;
   overflow: hidden;
 }
+
+footer {
+  color: rgba(0, 0, 0, 0.447);
+  text-align: center;
+  font-size: small;
+  width: 170px;
+  margin: auto;
+  padding: 40px 0;
+}
