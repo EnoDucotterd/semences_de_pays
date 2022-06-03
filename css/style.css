@@ -18,7 +18,11 @@ header h1 {
 
 h1,
 h2 {
-  font-family: eb-garamond, serif
+  font-family: eb-garamond, serif;
+}
+
+h2 {
+  font-size: medium;
 }
 
 header .sommary {
