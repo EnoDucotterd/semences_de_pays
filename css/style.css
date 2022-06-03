@@ -27,6 +27,10 @@ h2 {
   width: 100px;
 }
 
+main {
+  margin: auto;
+}
+
 .sommary {
   background-color: #F2E0D2;
   width: 375px;
@@ -53,6 +57,7 @@ h2 {
   font-weight: 300;
 }
 
+
 .context {
   position: relative;
 }
@@ -65,8 +70,27 @@ h2 {
   z-index: -1;
 }
 
+.pumpkin,
+.flower {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.borlotto {
+  display: flex;
+  align-items: center;
+  padding: 0 200px 0 0;
+}
+
+.borlotto figure {
+  order: -1;
+  justify-content: flex-start;
+}
+
 .button {
   width: 90px;
+  height: 30px;
   color: #F5F0EA;
   display: flex;
   align-items: center;
@@ -88,10 +112,11 @@ h2 {
   background-color: #A9A3CD;  
 }
 
-.button-pumpkin figure,
-.button-borlotto figure,
-.button-flower figure {
+.pumpkin figure,
+.borlotto figure,
+.flower figure {
   width: 220px;
+  height: 280px;
   padding: auto;
 }
 
