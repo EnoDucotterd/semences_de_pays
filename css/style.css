@@ -77,6 +77,14 @@ main article {
   z-index: -1;
 }
 
+figcaption {
+  position: absolute;
+  font-size:x-small;
+  bottom: -200px;
+  right: 0px;
+  width: 250px;
+}
+
 .pumpkin,
 .flower {
   display: flex;
@@ -94,13 +102,15 @@ main article {
   justify-content: flex-start;
 }
 
-.button {
+.button,
+a {
   width: 90px;
   height: 30px;
   color: #F5F0EA;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
 }
 
 .button-pumpkin,
