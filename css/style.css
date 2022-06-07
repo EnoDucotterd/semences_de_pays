@@ -21,7 +21,7 @@ h2 {
   font-family: eb-garamond, serif;
 }
 .seed-title {
-  margin: 200px 0 0;
+  margin: 165px 0 0;
 }
 
 h2 {
@@ -58,17 +58,24 @@ main article {
 .context {
   margin: 20px 0 160px;
   position: relative;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
 }
 
 .context div {
   background-color: #f5f0eab1;
   font-weight: 300;
+  width: 280px;
+  margin-top: 50px;
+  margin-left: 10px;
+  padding: 5px;
 }
 
 .context img {
-  width: 250px;
+  width: 375px;
   position: absolute;
-  top: 70px;
+  top: 0px;
   right: 0px;
   z-index: -1;
 }
@@ -76,9 +83,8 @@ main article {
 figcaption {
   position: absolute;
   font-size: x-small;
-  bottom: -200px;
-  right: 0px;
-  width: 250px;
+  bottom: -110px;
+  left: 20px;
 }
 
 .pumpkin,
