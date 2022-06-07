@@ -7,7 +7,7 @@ html {
 
 body {
   max-width: 375px;
-  background-color: #F5F0EA;
+  background-color: #f5f0ea;
   margin: auto;
   font-family: brandon-grotesque, sans-serif;
 }
@@ -31,7 +31,7 @@ h2 {
 }
 
 main {
-  margin: auto;
+  width: 375px;
 }
 
 main article {
@@ -39,7 +39,7 @@ main article {
 }
 
 .sommary {
-  background-color: #F2E0D2;
+  background-color: #f2e0d2;
   width: 375px;
   height: 37px;
   display: flex;
@@ -57,16 +57,12 @@ main article {
 
 .context {
   margin: 20px 0 160px;
+  position: relative;
 }
 
 .context div {
   background-color: #f5f0eab1;
   font-weight: 300;
-}
-
-
-.context {
-  position: relative;
 }
 
 .context img {
@@ -79,7 +75,7 @@ main article {
 
 figcaption {
   position: absolute;
-  font-size:x-small;
+  font-size: x-small;
   bottom: -200px;
   right: 0px;
   width: 250px;
@@ -106,7 +102,7 @@ figcaption {
 article a {
   width: 90px;
   height: 30px;
-  color: #F5F0EA;
+  color: #f5f0ea;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -115,17 +111,17 @@ article a {
 
 .button-pumpkin,
 .pumpkin figure {
-  background-color: #DB967C;
+  background-color: #db967c;
 }
 
 .button-borlotto,
 .borlotto figure {
-  background-color: #CF7F96;
+  background-color: #cf7f96;
 }
 
 .button-flower,
 .flower figure {
-  background-color: #A9A3CD;  
+  background-color: #a9a3cd;
 }
 
 .pumpkin figure,
@@ -136,25 +132,28 @@ article a {
   padding: auto;
 }
 
-
 .pumpkin img,
 .borlotto img,
 .flower img {
-  width: 280px;
+  width: 190px;
 }
 
+nav {
+  position: relative;
+}
 
 .location {
-  background-color: #ADD490;
+  background-color: #add490;
   display: flex;
   flex-direction: column;
   height: 260px;
+  width: 100%;
   overflow: hidden;
   transition: height 0.3s;
   position: relative;
 }
 
-.map {
+.location img {
   width: 200px;
   position: absolute;
   right: 30px;
@@ -163,22 +162,24 @@ article a {
 .more-contact {
   background-color: black;
   position: absolute;
-  bottom: 5px;
-  left: 5px;
+  bottom: -30px;
+  right: 0px;
 }
 
 .retails {
   width: 80px;
   margin-left: 10px;
- }
+}
 
 .location.is-open {
   height: 784px;
 }
 
-footer {
+footer,
+footer div a {
   color: rgba(0, 0, 0, 0.447);
   text-align: center;
+  text-decoration: none;
   font-size: small;
   width: 170px;
   margin: auto;
