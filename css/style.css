@@ -177,8 +177,12 @@ nav {
   margin-left: 10px;
 }
 
+.retails h4 {
+  white-space: nowrap;
+}
+
 .location.is-open {
-  height: 784px;
+  height: 800px;
 }
 
 footer,
