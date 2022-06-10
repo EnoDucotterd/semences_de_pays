@@ -85,7 +85,7 @@ figcaption {
 }
 
 .seed-title {
-  margin: 165px 0 0;
+  margin: 170px 0 0;
 }
 
 .pumpkin,
@@ -146,6 +146,7 @@ article a {
 }
 
 .contact {
+  margin-top: 120px;
   position: relative;
 }
 
